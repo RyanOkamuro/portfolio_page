@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Crimson Text", serif;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+nav .fixed-top {
+  position: fixed;
+}
+nav .logo {
+  height: 35px;
+  width: 35px;
+}
+
+.nav-link {
+  font-size: 22px;
+}
+
+header {
+  padding: 80px 10px 0 10px;
+}
+header h1 {
+  font-weight: bold;
+  text-align: center;
+}
+header h2 {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#mainNav #navbarNav .ml-auto {
+  right: 0px;
+}
+
+main {
+  position: relative;
+}
+
+#about {
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about .profile-pic {
+  width: auto;
+  max-width: 100%;
+  max-height: auto;
+}
+#about .about-me {
+  flex: 1;
+  font-size: 20px;
+  line-height: 40px;
+}
+#about .about-me .contact-gmail {
+  font-style: italic;
+}
+
+#skills {
+  padding: 80px 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8F9FA;
+}
+#skills h3 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+#skills .coding-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+#skills .coding-skills .all-skills {
+  flex: 1;
+  list-style-position: inside;
+}
+#skills .coding-skills .all-skills .skill-img {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#skills .coding-skills .all-skills h4, #skills .coding-skills .all-skills h5, #skills .coding-skills .all-skills h6 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+#skills .coding-skills .all-skills .skill-list {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+#skills .coding-skills .all-skills .skill-list li {
+  font-size: 18px;
+}
+
+#portfolio-projects {
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#portfolio-projects .capstone-projects-main-title {
+  font-size: 35px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+#portfolio-projects .capstone-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#portfolio-projects .capstone-projects .projects {
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 2px 2px 1px #E8E8E8;
+}
+#portfolio-projects .capstone-projects .projects .capstone-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+#portfolio-projects .capstone-projects .projects .capstone-languages {
+  text-align: center;
+}
+#portfolio-projects .capstone-projects .projects .project-img {
+  padding: 15px;
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+#portfolio-projects .capstone-projects .projects .project-description {
+  display: block;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio-projects .capstone-projects .projects .view-project-buttons {
+  text-align: center;
+}
+#portfolio-projects .capstone-projects .projects .view-project-buttons .button-links, #portfolio-projects .capstone-projects .projects .view-project-buttons .button-links-git {
+  display: inline-block;
+  width: 70px;
+  padding: 5px;
+  background-color: #1976D2;
+  color: #F8F8FF;
+  border: 0.5px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 5px 5px 2px 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#portfolio-projects .capstone-projects .projects .view-project-buttons .button-links:hover,
+#portfolio-projects .capstone-projects .projects .view-project-buttons .button-links:focus {
+  background-color: #2196F3;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+  outline: none;
+}
+#portfolio-projects .capstone-projects .projects .view-project-buttons .button-links-git {
+  background-color: #FFFFFF;
+  color: #606060;
+  box-shadow: 1px 1px 1px 1px #E8E8E8;
+}
+#portfolio-projects .capstone-projects .projects .view-project-buttons .button-links-git:hover,
+#portfolio-projects .capstone-projects .projects .view-project-buttons .button-links-git:focus {
+  box-shadow: 1px 1px 1px 1px #A8A8A8;
+  color: #080808;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+  outline: none;
+}
+
+#contact {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 20px 80px 20px;
+  background-color: #F8F9FA;
+}
+#contact .contact-me-title {
+  font-size: 35px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+#contact .contact-me-info {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#contact .contact-info-center {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#contact .contact-info-center .contact-info-center > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#contact .contact-info-center a:hover {
+  text-decoration: none;
+}
+#contact .contact-info-center .contact-connect-me-email {
+  display: inline-block;
+  height: 32px;
+  width: 37px;
+}
+#contact .contact-info-center .contact-connect-me, #contact .contact-info-center .contact-connect-me {
+  height: 32px;
+}
+
+@media only screen and (max-width: 10000px) {
+  #about .profile-pic {
+    height: 500px;
+  }
+
+  #portfolio-projects .capstone-projects {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #portfolio-projects .capstone-projects .projects .project-description {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 400px;
+  }
+  #portfolio-projects .capstone-projects .projects .project-img {
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  #about .profile-pic {
+    height: 400px;
+  }
+
+  #skills {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  #portfolio-projects .capstone-projects {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #portfolio-projects .capstone-projects .projects .project-description {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 280px;
+  }
+  #portfolio-projects .capstone-projects .projects .project-img {
+    padding: 5px;
+    height: 140px;
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  #skills {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #portfolio-projects .capstone-projects {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #portfolio-projects .capstone-projects .projects {
+    width: 350px;
+  }
+  #portfolio-projects .capstone-projects .projects .project-description, #portfolio-projects .capstone-projects .projects .project-img {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #about {
+    width: 800px;
+    margin-bottom: 0;
+  }
+  #about .about-me {
+    line-height: 37px;
+  }
+}
+@media only screen and (max-width: 976px) {
+  #portfolio-projects .capstone-projects {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  #portfolio-projects .capstone-projects .projects {
+    width: 270px;
+  }
+  #portfolio-projects .capstone-projects .projects .project-img {
+    padding: 5px;
+    height: 125px;
+    width: 225px;
+  }
+  #portfolio-projects .capstone-projects .projects .project-description {
+    width: 225px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #about, #skills {
+    flex-direction: column;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #about .profile-pic, #skills .profile-pic {
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 823px) {
+  #skills .all-skills {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #portfolio-projects .capstone-projects {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header h1 {
+    font-size: 38px;
+  }
+
+  #about .profile-pic {
+    height: 300px;
+  }
+  #about .about-me {
+    font-size: 18px;
+  }
+
+  #skills {
+    padding-bottom: 0;
+  }
+  #skills h3 {
+    margin-bottom: 30px;
+  }
+
+  #portfolio-projects {
+    padding-bottom: 0;
+  }
+  #portfolio-projects .capstone-projects-main-title {
+    margin-bottom: 30px;
+  }
+
+  #contact {
+    padding-bottom: 0;
+  }
+  #contact .contact-me-title {
+    margin-bottom: 30px;
+  }
+  #contact .contact-me-info {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
