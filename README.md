@@ -7,7 +7,7 @@ A collection of my projects.
 Screenshot
 -----------
 
-![Landing Page](https://raw.githubusercontent.com/RyanOkamuro/portfolio/master/assets/Portfolio_Landing_Page.jpg)
+![Landing Page](https://raw.githubusercontent.com/RyanOkamuro/portfolio_page/master/assets/Portfolio_Landing_Page.jpg)
 
 
 Built With
@@ -20,7 +20,7 @@ Built With
 
 Demo
 --------
-https://ryanokamuro.github.io/portfolio/
+https://ryanokamuro.com
 
 
 Author
