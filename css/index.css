@@ -219,7 +219,6 @@ main {
 #contact .contact-info-center {
   display: block;
   text-align: center;
-  margin-bottom: 50px;
 }
 #contact .contact-info-center .contact-info-center > a {
   text-decoration: none;
