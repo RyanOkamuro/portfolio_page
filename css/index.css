@@ -44,7 +44,7 @@ main {
   position: relative;
 }
 
-#about {
+#about-main {
   display: flex;
   margin-top: 80px;
   flex-wrap: wrap;
@@ -53,17 +53,17 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-#about .profile-pic {
+#about-main .profile-pic {
   width: auto;
   max-width: 100%;
   max-height: auto;
 }
-#about .about-me {
+#about-main .about-me {
   flex: 1;
   font-size: 20px;
   line-height: 40px;
 }
-#about .about-me .contact-gmail {
+#about-main .about-me .contact-gmail {
   font-style: italic;
 }
 
@@ -198,11 +198,82 @@ main {
   outline: none;
 }
 
+#foxconn-projects {
+  background-color: #F8F9FA;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#foxconn-projects .foxconn-projects-title {
+  font-size: 35px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+#foxconn-projects .hardware-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#foxconn-projects .hardware-projects .dell-projects {
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 2px 2px 1px #E8E8E8;
+}
+#foxconn-projects .hardware-projects .dell-projects .optiplex-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+#foxconn-projects .hardware-projects .dell-projects .form-factor {
+  text-align: center;
+}
+#foxconn-projects .hardware-projects .dell-projects .hardware-project-img {
+  padding: 15px;
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+#foxconn-projects .hardware-projects .dell-projects .hardware-project-description {
+  display: block;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#foxconn-projects .hardware-projects .dell-projects .hardware-button-link {
+  display: block;
+  padding: 5px;
+  background-color: #1976D2;
+  color: #F8F8FF;
+  border: 0.5px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 5px 15px 2px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#foxconn-projects .hardware-projects .dell-projects .hardware-button-link:hover,
+#foxconn-projects .hardware-projects .dell-projects .hardware-button-link:focus {
+  background-color: #2196F3;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+  outline: none;
+}
+
 #contact {
   margin-left: auto;
   margin-right: auto;
   padding: 80px 20px 80px 20px;
-  background-color: #F8F9FA;
+  background-color: #FFFFFF;
 }
 #contact .contact-me-title {
   font-size: 35px;
@@ -237,7 +308,7 @@ main {
 }
 
 @media only screen and (max-width: 10000px) {
-  #about .profile-pic {
+  #about-main .profile-pic {
     height: 500px;
   }
 
@@ -257,7 +328,7 @@ main {
   }
 }
 @media only screen and (max-width: 1900px) {
-  #about .profile-pic {
+  #about-main .profile-pic {
     height: 400px;
   }
 
@@ -299,11 +370,11 @@ main {
   }
 }
 @media only screen and (max-width: 1050px) {
-  #about {
+  #about-main {
     width: 800px;
     margin-bottom: 0;
   }
-  #about .about-me {
+  #about-main .about-me {
     line-height: 37px;
   }
 }
@@ -325,13 +396,13 @@ main {
   }
 }
 @media only screen and (max-width: 900px) {
-  #about, #skills {
+  #about-main, #skills {
     flex-direction: column;
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
-  #about .profile-pic, #skills .profile-pic {
+  #about-main .profile-pic, #skills .profile-pic {
     height: 500px;
     margin-right: auto;
     margin-left: auto;
@@ -349,15 +420,35 @@ main {
     margin-right: 0;
   }
 }
+@media only screen and (max-width: 596px) {
+  #foxconn-projects {
+    padding-bottom: 0;
+  }
+  #foxconn-projects .hardware-projects {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  #foxconn-projects .hardware-projects .dell-projects {
+    width: 270px;
+  }
+  #foxconn-projects .hardware-projects .dell-projects .hardware-project-img {
+    padding: 5px;
+    height: 125px;
+    width: 225px;
+  }
+  #foxconn-projects .hardware-projects .dell-projects .hardware-project-description {
+    width: 225px;
+  }
+}
 @media only screen and (max-width: 500px) {
   header h1 {
     font-size: 38px;
   }
 
-  #about .profile-pic {
+  #about-main .profile-pic {
     height: 300px;
   }
-  #about .about-me {
+  #about-main .about-me {
     font-size: 18px;
   }
 
