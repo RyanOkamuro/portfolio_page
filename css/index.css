@@ -79,6 +79,33 @@ main {
   font-weight: bold;
   margin-bottom: 60px;
 }
+#skills .my-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+#skills .my-skills .skills-list-1 {
+  flex: 1;
+  list-style-position: inside;
+}
+#skills .my-skills .skills-list-1 h4, #skills .my-skills .skills-list-1 h5, #skills .my-skills .skills-list-1 h6 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+#skills .my-skills .skills-list-1 .skill-list-1 {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+#skills .my-skills .skills-list-1 .skill-list-1 li {
+  font-size: 18px;
+}
+#skills .tech-skills {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 60px;
+}
 #skills .coding-skills {
   display: flex;
   flex-wrap: wrap;
@@ -412,6 +439,10 @@ main {
   #skills .all-skills {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  #skills .skills-list-1 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media only screen and (max-width: 720px) {

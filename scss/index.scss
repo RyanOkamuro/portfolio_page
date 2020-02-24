@@ -87,6 +87,34 @@
 			font-weight: bold;
 			margin-bottom: 60px;
 		}
+		
+		.my-skills {
+			display: flex;
+			flex-wrap: wrap;
+				.skills-list-1 {
+					flex: 1;
+					list-style-position: inside;
+						h4, h5, h6 {
+							text-align: $ctr;
+							font-size: 25px;
+							font-weight: bold;
+						}
+						.skill-list-1 {
+							text-align: $ctr;
+							list-style-type: none;
+							padding: 0;
+							li {
+								font-size: 18px;
+							}
+						}
+				}
+		}
+		.tech-skills {
+			font-size: 35px;
+			text-align: $ctr;
+			font-weight: bold;
+			margin-top: 60px;
+		}
 		.coding-skills {
 			display: flex;
 			flex-wrap: wrap;
@@ -440,6 +468,10 @@
 			.all-skills {
 				padding-left: 10px;
 				padding-right: 10px;
+			}
+			.skills-list-1 {
+				padding-left: 15px;
+				padding-right: 15px;
 			}
 		}
 	}
