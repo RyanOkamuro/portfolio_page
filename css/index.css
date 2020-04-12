@@ -225,47 +225,47 @@ main {
   outline: none;
 }
 
-#foxconn-projects {
+#hardware-products {
   background-color: #F8F9FA;
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 80px;
 }
-#foxconn-projects .foxconn-projects-title {
+#hardware-products .foxconn-projects-title {
   font-size: 35px;
   padding-top: 40px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 60px;
 }
-#foxconn-projects .hardware-projects {
+#hardware-products .hardware-projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#foxconn-projects .hardware-projects .dell-projects {
+#hardware-products .hardware-projects .dell-projects {
   padding: 10px;
   margin: 10px;
   background-color: #FFFFFF;
   box-shadow: 1px 2px 2px 1px #E8E8E8;
 }
-#foxconn-projects .hardware-projects .dell-projects .optiplex-title {
+#hardware-products .hardware-projects .dell-projects .optiplex-title {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
 }
-#foxconn-projects .hardware-projects .dell-projects .form-factor {
+#hardware-products .hardware-projects .dell-projects .form-factor {
   text-align: center;
 }
-#foxconn-projects .hardware-projects .dell-projects .hardware-project-img {
+#hardware-products .hardware-projects .dell-projects .hardware-project-img {
   padding: 15px;
   height: 200px;
   width: 400px;
   display: block;
   margin: 0 auto 0 auto;
 }
-#foxconn-projects .hardware-projects .dell-projects .hardware-project-description {
+#hardware-products .hardware-projects .dell-projects .hardware-project-description {
   display: block;
   font-size: 17px;
   padding-left: 15px;
@@ -274,7 +274,7 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-#foxconn-projects .hardware-projects .dell-projects .hardware-button-link {
+#hardware-products .hardware-projects .dell-projects .hardware-button-link {
   display: block;
   padding: 5px;
   background-color: #1976D2;
@@ -286,8 +286,8 @@ main {
   text-decoration: none;
   cursor: pointer;
 }
-#foxconn-projects .hardware-projects .dell-projects .hardware-button-link:hover,
-#foxconn-projects .hardware-projects .dell-projects .hardware-button-link:focus {
+#hardware-products .hardware-projects .dell-projects .hardware-button-link:hover,
+#hardware-products .hardware-projects .dell-projects .hardware-button-link:focus {
   background-color: #2196F3;
   -webkit-transition: background 0.1s;
   -moz-transition: background 0.1s;
@@ -452,22 +452,22 @@ main {
   }
 }
 @media only screen and (max-width: 596px) {
-  #foxconn-projects {
+  #hardware-products {
     padding-bottom: 0;
   }
-  #foxconn-projects .hardware-projects {
+  #hardware-products .hardware-projects {
     margin-left: 60px;
     margin-right: 60px;
   }
-  #foxconn-projects .hardware-projects .dell-projects {
+  #hardware-products .hardware-projects .dell-projects {
     width: 270px;
   }
-  #foxconn-projects .hardware-projects .dell-projects .hardware-project-img {
+  #hardware-products .hardware-projects .dell-projects .hardware-project-img {
     padding: 5px;
     height: 125px;
     width: 225px;
   }
-  #foxconn-projects .hardware-projects .dell-projects .hardware-project-description {
+  #hardware-products .hardware-projects .dell-projects .hardware-project-description {
     width: 225px;
   }
 }
